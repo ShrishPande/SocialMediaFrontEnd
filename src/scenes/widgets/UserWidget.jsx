@@ -24,7 +24,7 @@ const UserWidget = ({ userId, picturePath }) => {
   const main = palette.neutral.main;
 
   const getUser = async () => {
-    const response = await fetch(`https://socialmedianew.onrender.com/users/${userId}`, {
+    const response = await fetch(`https://social-media-backend-silk.vercel.app/users/${userId}`, {
       method: "GET",
       headers: { Authorization: `Bearer${token}` },
     });

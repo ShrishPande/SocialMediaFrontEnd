@@ -64,7 +64,7 @@ const Form = () => {
     formData.append("picturePath", values.picture.name);
 
     const savedUserResponse = await fetch(
-      "https://socialmedianew.onrender.com/auth/register",
+      "https://social-media-backend-silk.vercel.app/auth/register",
       {
         method: "POST",
         body: formData,

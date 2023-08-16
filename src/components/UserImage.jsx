@@ -8,7 +8,7 @@ const UserImage = ({image,size="60px"})=>{
                 width={size}
                 height={size}
                 alt="user"
-                src={`https://socialmedianew.onrender.com/assets/${image}`}
+                src={`https://social-media-backend-silk.vercel.app/assets/${image}`}
 
             />
 

@@ -23,7 +23,7 @@ const Friend = ({ friendId, name, subtitle, userPicturePath }) => {
 
   const patchFriend = async () => {
     const response = await fetch(
-      `https://socialmedianew.onrender.com/users/${_id}/${friendId}`,
+      `https://social-media-backend-silk.vercel.app/users/${_id}/${friendId}`,
       {
         method: "PATCH",
         headers: {
